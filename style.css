@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.logo  img{
+	border-radius: 13px;
+    width: 100px;
+}
+.logo{
+    font-weight: 600;
+    font-size: 200;
+}
+
+.tagline {
+	font-size: 18px;
+	color: #666;
+}
+
+.hero {
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://images.unsplash.com/photo-1517895006477-9cfedb89a536?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA0fHx1YmVyfGVufDB8fDB8fHww);
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+.hero p{
+    color: #fff;
+}
+
+.hero img {
+	width: 100%;
+	height: 100vh;
+}
+
+.features {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 60px;
+}
+p{
+    font-size: 14px;
+    font-weight: 300px;
+    color: #777;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between ;
+}
+.tuple{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between ;
+}
+.attribute{
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.attribute:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.feature {
+	margin-bottom: 20px;
+}
+
+.feature i {
+	font-size: 24px;
+	color: #333;
+}
+
+.testimonials {
+	background-color: #f7f7f7;
+	padding: 20px;
+}
+.testimonials h2{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.testimonial {
+	margin-bottom: 20px;
+}
+
+.testimonial img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.press-button {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.press {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.press:hover {
+	background-color: #f19e9e;
+    transition: 1s;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+footer a{
+	color: chocolate;
+}
