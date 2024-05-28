@@ -143,3 +143,8 @@ footer {
 footer a{
 	color: chocolate;
 }
+footer:hover p a{
+	color: green;
+	transition: 1s;
+	cursor: pointer;
+}
